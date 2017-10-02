@@ -1,0 +1,11 @@
+package: github.com/ericchiang/got
+import:
+- package: github.com/pkg/errors
+- package: go4.org
+  subpackages:
+  - lock
+- package: github.com/Masterminds/vcs
+- package: github.com/spf13/cobra
+  version: 0dacccfbaabc71b872087c1719c5380d3e185173
+- package: github.com/spf13/pflag
+  version: v1.0.0

@@ -1,0 +1,4 @@
+bazel-*
+# Ignore vendor for now, until this tool is good enough to be self-hosting
+vendor/
+glide.lock
